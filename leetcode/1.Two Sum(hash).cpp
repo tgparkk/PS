@@ -16,9 +16,14 @@ public:
             {
                 res.push_back(nums[i]);
                 res.push_back(temp);
+                return res;
             }
         }
-        
         return res;
     }
 };
+
+int main(){
+    Solution s=new Solution();
+    //test
+}
