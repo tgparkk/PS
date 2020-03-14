@@ -22,7 +22,7 @@ void left_rotate(int arr[], int s,int t)
     int i, start;
     start = arr[t];
 
-    for(i = s;i < e;i++)
+    for(i = s;i < t;i++)
     {
         arr[i] = arr[i+1];
     }
